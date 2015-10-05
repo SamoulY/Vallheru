@@ -1,0 +1,90 @@
+* {
+color: #FFFC9F;
+font-size: 100%;
+vertical-align: baseline;
+}
+body { 
+font: 0.75em/1.25 "Lucida Sans Unicode","Lucida Grande",Verdana,sans-serif; 
+background: #000000;
+}
+.td {
+border-top: solid black 1px;
+border-bottom: solid black 1px;
+border-left: solid black 1px;
+border-right: solid black 1px;
+}
+form input[type=submit] { 
+color: #FFFFFF; 
+cursor:pointer; 
+}
+form input[type=submit]:hover { 
+color: #E20000; 
+border:1px solid; 
+}
+input, textarea, select {
+background-color: #202020;
+border: 1px solid #383838;
+font: inherit;
+}
+a {
+text-decoration: none;
+text-transform: none;
+color: #FFFFFF;
+}
+a:hover {
+text-decoration: none;
+text-transform: none;
+color: red;
+}
+body, iframe, select, textarea {
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+div.error {
+  border-style: dotted;
+  border-color: darkred;
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+  color: red;
+  font-weight: bold;
+  margin: 10px;
+}
+div.success {
+  border-style: dotted;
+  border-color: green;
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+  color: lightgreen;
+  margin: 10px;
+}
+div.info {
+  border-style: dotted;
+  border-color: blue;
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+  color: mediumaquamarine;
+  font-weight: bold;
+  margin: 10px;
+}
+label.toggle { 
+  cursor: pointer; 
+  color: #FFFFFF; 
+}
+label.toggle:hover { 
+  cursor: pointer; 
+  color: red; 
+}
+input.toggle { 
+  display: none; 
+}
+input.toggle:checked+div { 
+  display: none; 
+}
+input.toggle:checked+span { 
+  display: none; 
+}
